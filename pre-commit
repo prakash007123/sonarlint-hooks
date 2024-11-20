@@ -1,0 +1,11 @@
+#!/bin/bash
+# Check if SonarLint is installed and active
+
+# Example for checking if SonarLint is installed on VS Code
+if ! grep -q "sonarlint" .vscode/settings.json; then
+  echo "Error: SonarLint is not configured. Please install and configure SonarLint in your IDE."
+  exit 1
+fi
+
+echo "SonarLint is set up. Proceeding with the commit."
+
