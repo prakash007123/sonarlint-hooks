@@ -1,0 +1,10 @@
+{
+    "sonarlint.connectedMode.enabled": true,
+    "sonarlint.connectedMode.servers": [
+      {
+        "serverId": "sonar-server",
+        "serverUrl": "http://your-sonar-server-url"
+      }
+    ]
+  }
+  
